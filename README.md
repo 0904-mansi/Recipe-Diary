@@ -1,1 +1,6 @@
 # Recipe-App
+
+
+In this project I have created  a simple recipe website in which I have used HTML ,CSS3 and JSX JavaScript.I have created this website during my MLH Init's Daily challanges.
+
+By enter the name of any dish you will get the recipe of that food and along with that you can also check the Calorie of food and Diet level too...# Recipe-App
