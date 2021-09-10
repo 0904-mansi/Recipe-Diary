@@ -1,5 +1,5 @@
 
-# Recipe-App
+# Recipe-Diary
 
 
 In this project I have created  a simple recipe website in which I have used HTML ,CSS3 and JSX JavaScript.I have created this website during my MLH Init's Daily challanges.
