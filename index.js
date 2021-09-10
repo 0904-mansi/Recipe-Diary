@@ -15,7 +15,7 @@ searchForm.addEventListener("submit", (e) => {
 
 async function fetchAPI() {
   
-  // I am adding this baseURL link from edamam recipe site 
+//   I am adding this baseURL link from edamam recipe site 
   const baseURL = `https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&from=0&to=20`;
   const response = await fetch(baseURL);
   const data = await response.json();
@@ -30,19 +30,19 @@ function generateHTML(results) {
   results.map((result) => {
     generatedHTML += `<div class="item">
     
-    // by typing "result.recipe.anything" i wil get any detail about that dish it was really fun for me to do this in javascript
+//      by typing "result.recipe.anything" i wil get any detail about that dish it was really fun for me to do this in javascript
     <img src="${result.recipe.image}" alt="">
     <div class="flex-container">
-   // for label of dish
+//     for label of dish
       <h1 class="title">${result.recipe.label}</h1>
       
-      // for url of recipe
+//       for url of recipe
       <a class="view-btn" href="${result.recipe.url}">View Recipe</a>
       
-      //for calories of recipe
+//       for calories of recipe
     <p class="title">Calories: ${result.recipe.calories.toFixed(2)}</p>
     
-    //for diet label of recipe
+//     for diet label of recipe
         <p class="item-data">Diet label: ${
           result.recipe.dietLabels.length > 0
             ? result.recipe.dietLabels
