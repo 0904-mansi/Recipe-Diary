@@ -1,6 +1,6 @@
 
 # Recipe-Diary
-
+[![CI](https://github.com/0904-mansi/recipe-diary/actions/workflows/main.yml/badge.svg)](https://github.com/0904-mansi/recipe-diary/actions/workflows/main.yml)
 
 In this project I have created  a simple recipe website in which I have used HTML ,CSS3 and JSX JavaScript.I have created this website during my MLH Init's Daily challanges.
 
