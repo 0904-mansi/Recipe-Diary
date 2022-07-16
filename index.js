@@ -48,4 +48,3 @@ function generateHTML(results) {
   });
   searchResultDiv.innerHTML = generatedHTML;
 }
-
