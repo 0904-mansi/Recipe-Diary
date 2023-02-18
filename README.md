@@ -8,3 +8,8 @@ By entering the name of any dish you will get the recipe of that food and along 
 
 
 ![Screenshot_20210805_173041](https://user-images.githubusercontent.com/81081105/128347047-6b208ad5-8c0f-48a3-a6f4-dc44c7e8c937.png)
+
+
+# Deployed on Azure
+
+[Access here](https://recipediary.z29.web.core.windows.net/) 
